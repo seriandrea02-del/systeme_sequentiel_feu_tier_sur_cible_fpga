@@ -1,4 +1,4 @@
-# Système Séquentiel - Feux Tricolores sur FPGA (DE2i-150)
+# 🚦Gestion de feu tricolores par un décompteur temporel
 
 ## 📋 Description du projet
 Ce projet consiste à concevoir et à implémenter un système séquentiel (gestion d'un timer pour des feux tricolores) entièrement développé en **VHDL** et ciblant la carte FPGA **Intel Altera DE2i-150**. 
