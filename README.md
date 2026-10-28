@@ -8,7 +8,7 @@ L’objectif est de contrôler les signaux lumineux de deux voies de circulation
 
 Le projet comprend également un module de décompte commandé par des boutons-poussoirs, ainsi qu’un module de gestion des feux tricolores.
 
-## 2. Objectifs
+## 🏆 2. Objectifs
 
 - Concevoir des circuits numériques en VHDL.
 - Utiliser une machine à états finis (FSM) pour organiser les séquences de fonctionnement.
@@ -17,7 +17,7 @@ Le projet comprend également un module de décompte commandé par des boutons-p
 - Prendre en compte les rebonds des boutons-poussoirs grâce à un module anti-rebond.
 - Tester et observer le comportement des sorties sur une carte FPGA.
 
-## 3. Architecture logicielle
+## ⚙️ 3. Architecture logicielle
 
 Le projet est organisé en plusieurs modules VHDL. Chaque module possède un rôle précis.
 
@@ -35,7 +35,7 @@ flowchart TD
 
 **À noter :** ce schéma présente les fonctions des modules du projet. Dans les fichiers fournis, `top.vhd` et `traffic_light.vhd` constituent deux conceptions distinctes. Le schéma ne signifie donc pas que le timer et le contrôleur des feux sont déjà reliés dans une seule conception.
 
-## 4. Rôle des fichiers VHDL
+## 💡 4. Rôle des fichiers VHDL
 
 | Fichier | Fonction |
 |---|---|
@@ -68,7 +68,7 @@ Le module `top.vhd` utilise une machine à états pour gérer les étapes suivan
 
 Le module `debounce.vhd` contribue à fiabiliser les commandes en filtrant les rebonds des boutons-poussoirs.
 
-## 5. Technologies utilisées
+##  🖥️ 5. Technologies utilisées
 
 - **VHDL** : description du fonctionnement des circuits numériques.
 - **Intel Quartus Prime Lite** : environnement de conception FPGA.
@@ -76,7 +76,7 @@ Le module `debounce.vhd` contribue à fiabiliser les commandes en filtrant les r
 - **Horloge à 50 MHz** : référence temporelle utilisée pour les décomptes.
 - **Machines à états finis** : gestion des séquences et des transitions.
 
-## 6. Organisation du dépôt
+## 💾 6. Organisation du dépôt
 
 ```text
 gestion-feux-tricolores/
